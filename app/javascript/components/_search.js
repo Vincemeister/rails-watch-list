@@ -1,10 +1,3 @@
-// Entry point for the build script in your package.json
-import "@hotwired/turbo-rails"
-import "./controllers"
-import "bootstrap"
-import "./components"
-
-
 const movieDropdown = document.getElementById("movie-dropdown");
 const movieSearch = document.getElementById("movie-search");
 

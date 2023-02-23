@@ -1,0 +1,5 @@
+<%= @list.name  %>
+<% @list.bookmarks.each do |bookmark| %>
+  <%= bookmark %>
+<% end %>
+<%= link_to "Add a bookmark", new_list_bookmark_path(@list) %>
